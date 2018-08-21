@@ -47,7 +47,11 @@ int main(int argc, char *argv[])
         if (isupper(userstring[i]))
         {
             //
+<<<<<<< HEAD
             int shiftamount = tolower(keyword[j % keyWordLength]) - 'a'; //using 'a' b/c islower
+=======
+            int shiftamount = tolower(keyword[j % keyWordLength]) - 'a';
+>>>>>>> 27956377044910907bf73b4a91d249d58c56984d
             printf("%c", ((userstring[i] - 'A' + shiftamount) % 26) + 65);
             j = j + 1;
         }
