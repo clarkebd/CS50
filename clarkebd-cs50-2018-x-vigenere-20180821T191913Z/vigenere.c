@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
         {
             //
 <<<<<<< HEAD
-            int shiftamount = tolower(keyword[j % keyWordLength]) - 'a'; //using 'a' b/c islower
+            int shiftamount = tolower(keyword[j % keyWordLength]) - 'a'; //using 'a' b/c of tolower
 =======
             int shiftamount = tolower(keyword[j % keyWordLength]) - 'a';
 >>>>>>> 27956377044910907bf73b4a91d249d58c56984d
